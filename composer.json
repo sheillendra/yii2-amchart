@@ -1,0 +1,26 @@
+{
+	"name": "sheillendra/yii2-amcharts",
+	"description": "Implement amcharts3 on Yii2",
+	"keywords": ["amcharts", "amcharts3", "sheillendra", "yii2","yii"],
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "Sheillendra",
+			"email": "sheillendra@yahoo.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+    "bower-asset/amcharts3": ">=3.18.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"sheillendra\\amcharts\\": ""
+		}
+	},
+	"extra": {
+        	"branch-alias": {
+            		"dev-master": "1.0.x-dev"
+        	}
+    	}
+}
